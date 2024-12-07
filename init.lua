@@ -236,6 +236,7 @@ require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   'github/copilot.vim',
   'nvim-neo-tree/neo-tree.nvim',
+  { 'akinsho/toggleterm.nvim', version = '*', config = true },
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
